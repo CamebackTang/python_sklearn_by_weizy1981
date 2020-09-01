@@ -91,8 +91,8 @@ dataset_test = load_files(container_path= test_path, categories= categories)
 # TF-IDF值是一种用于信息检索与数据挖掘的常用加权技术。
 # TF的意思是词频（Term Frequency），IDF是逆向文件频率（Inverse Document Frequency）。
 # 
-# TF(t)= 该词语在当前⽂文档出现的次数 / 当前⽂文档中词语的总数
-# IDF(t)= log_e（⽂文档总数 / 出现该词语的⽂文档总数）
+# TF(t)= 该词语在当前文档出现的次数 / 当前文档中词语的总数
+# IDF(t)= log_e（文档总数 / 出现该词语的文档总数）
 #
 # TF-IDF的主要思想是：如果某一个词或短语在一篇文章中出现的频率高，
 # 并且在其他文章中很少出现，则认为此词或短语具有很好的类别区分能力，适合用来分类。
